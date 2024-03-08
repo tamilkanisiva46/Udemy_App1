@@ -31,6 +31,7 @@ namespace Udemy_App1.Characters.Melee
                 }
                 else
                 {
+                    name = "Assassin";
                     Console.WriteLine("The name is too short or too long! It must between 2 and 8 charactor.");
                 }
 
@@ -50,6 +51,7 @@ namespace Udemy_App1.Characters.Melee
                 }
                 else
                 {
+                    faction = "Melee";
                     Console.WriteLine("Inappropriate faction! Should be \"Melee\" or \"Spellcaster\"");
                 }
 
@@ -69,6 +71,7 @@ namespace Udemy_App1.Characters.Melee
                 }
                 else
                 {
+                    abilitypoints = 0;
                     Console.WriteLine("Inappropriate value! Abilitypoints should be between 0 to 10");
                 }
 
@@ -88,6 +91,7 @@ namespace Udemy_App1.Characters.Melee
                 }
                 else
                 {
+                    healthpoints = 1;
                     Console.WriteLine("Inappropriate value! Healthpoints should be between 1 to 120");
                 }
 
@@ -107,6 +111,7 @@ namespace Udemy_App1.Characters.Melee
                 }
                 else
                 {
+                    level = 1;
                     Console.WriteLine("Inappropriate value! Level should be between 1 to 100");
                 }
             }
@@ -125,6 +130,7 @@ namespace Udemy_App1.Characters.Melee
                 }
                 else
                 {
+                    damage = 1;
                     Console.WriteLine("Inappropriate value! Damage should be between 1 to 100");
                 }
             }

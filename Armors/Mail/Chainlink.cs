@@ -20,6 +20,7 @@ namespace Udemy_App1.Armor.Mail
                 }
                 else
                 {
+                    armorpoints = 0;
                     Console.WriteLine("Inappropriate value! Armorpoints should be between 1 to 100");
                 }
             }

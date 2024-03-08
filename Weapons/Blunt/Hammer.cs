@@ -20,6 +20,7 @@ namespace Udemy_App1.Weapon.Blunt
                 }
                 else
                 {
+                    damage = 0; 
                     Console.WriteLine("Inappropriate value! Damage should be between 1 to 100");
                 }
             }
